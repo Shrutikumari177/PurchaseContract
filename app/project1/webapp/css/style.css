@@ -1,0 +1,43 @@
+/* Enter your custom styles here */
+.vPanel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5 rem;
+}
+
+.panel1 {
+     margin-top: 12%;
+}
+.panel2 {
+    margin-top: 20%;  
+}
+.inact{
+    margin-top: 20%; margin-left: 25%;
+ text-align: center;
+}
+.create{
+    margin-top: 10%; margin-left: 500%;
+}
+.cancel{
+    margin-top: 10%; margin-left: 470%;
+}
+.hbox1{
+    width: 100%;
+    justify-content: space-between;
+}
+.label{
+    font-size: medium;
+}
+ /* .apanel{
+    display: block;
+ }  */
+ #container-project1---View1--_IDGenPanel1-content{
+    position: fixed;
+ }
+ #container-project1---View1--_IDGenPanel3-content{
+    position: fixed;
+    width: 300px;
+    margin-top: 3%;
+    overflow-y: hidden;
+ }

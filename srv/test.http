@@ -1,0 +1,42 @@
+# GET http://localhost:4004/odata/v4/escalation-management/PurchaseOrders
+
+DELETE http://localhost:4004/odata/v4/escalation-management/PurchaseOrders/4500000001
+
+# POST http://localhost:4004/odata/v4/escalation-management/PurchaseOrders
+# Content-Type: application/json
+
+# {
+#     "PurchaseOrderType": "NB",  
+#     "Supplier": "18322222", 
+#     "SupplierPhoneNumber": "",     
+#     "ID": "9500000003"
+# }
+
+
+
+
+
+# POST http://localhost:4004/odata/v4/travel/Travel
+# Content-Type: application/json
+ 
+# {
+#  "travelId":"Ingenex002",
+#  "empId_Empid":"I102",
+#  "empName_Empid":"Himanshu",
+#  "origin":"Delhi",
+#  "destination":"Mumbai",
+#  "dateOfDeparture":"2023-10-11",
+#  "dateOfArrival":"2023-10-12",
+#  "dateOfReturn":"2023-10-13",
+#  "description":"Welcome buddy",
+#  "price":12000,
+#  "travelStatus":"INP",
+#  "noOfDays":5,
+#  "noOfPassengers":"1",
+#  "passengerName":["Mr Rohan"],
+#  "travelType":"National",
+#  "travelMode":"Flight",
+#  "RoundTrip":"OneWay",
+#  "Accomandation":"Yes",
+#   "billable":"Yes"
+# }
