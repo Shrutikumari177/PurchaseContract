@@ -23,7 +23,7 @@
         <VBox id="_IDGenVBox1" class="vPanel">
  
        
-           <Panel id="_IDGenPanel1" class="panel" width="270px" height="600px" >
+           <Panel id="_IDGenPanel1" class="panel" width="270px" height="600%" >
  
            <ObjectListItem id="_IDGenObjectListItem1" intro="" title="General Info" icon="sap-icon://request" ></ObjectListItem>
  
